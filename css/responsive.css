@@ -1,6 +1,6 @@
-@media (max-width: 1199px) {
+@media (max-width: 1250px) {
     .header_content {
-        padding: 0 2rem;
+        padding: 0 5rem 0 0;
     }
 
     .menu {
@@ -9,6 +9,7 @@
 
     nav.menu ul {
         justify-content: flex-start;
+        text-align: left;
     }
 
     nav.menu ul li a {
