@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?ndozl9');
+    src:  url('fonts/icomoon.eot?ndozl9#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?ndozl9') format('truetype'),
+      url('fonts/icomoon.woff?ndozl9') format('woff'),
+      url('fonts/icomoon.svg?ndozl9#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-linkedin:before {
+    content: "\e900";
+  }
+  .icon-bootstrap-5-1:before {
+    content: "\e901";
+    color: #7952b3;
+  }
+  .icon-css-3 .path1:before {
+    content: "\e902";
+    color: rgb(27, 115, 186);
+  }
+  .icon-css-3 .path2:before {
+    content: "\e903";
+    margin-left: -0.873046875em;
+    color: rgb(28, 136, 199);
+  }
+  .icon-css-3 .path3:before {
+    content: "\e904";
+    margin-left: -0.873046875em;
+    color: rgb(255, 255, 255);
+  }
+  .icon-facebook-f:before {
+    content: "\e905";
+  }
+  .icon-github-icon:before {
+    content: "\e906";
+  }
+  .icon-html-1 .path1:before {
+    content: "\e907";
+    color: rgb(227, 79, 38);
+  }
+  .icon-html-1 .path2:before {
+    content: "\e908";
+    margin-left: -0.873046875em;
+    color: rgb(239, 101, 42);
+  }
+  .icon-html-1 .path3:before {
+    content: "\e909";
+    margin-left: -0.873046875em;
+    color: rgb(255, 255, 255);
+  }
+  .icon-javascript-1 .path1:before {
+    content: "\e90a";
+    color: rgb(233, 202, 50);
+  }
+  .icon-javascript-1 .path2:before {
+    content: "\e90b";
+    margin-left: -0.873046875em;
+    color: rgb(255, 222, 37);
+  }
+  .icon-javascript-1 .path3:before {
+    content: "\e90c";
+    margin-left: -0.873046875em;
+    color: rgb(255, 255, 255);
+  }
+  .icon-react-2:before {
+    content: "\e90d";
+    color: #61dafb;
+  }
+  .icon-tailwind-css-2:before {
+    content: "\e90e";
+    color: #06b6d4;
+  }
+  .icon-whatsapp:before {
+    content: "\e90f";
+  }
+  .icon-youtube:before {
+    content: "\e910";
+  }
+  

@@ -1,0 +1,54 @@
+@media (max-width: 1199px) {
+    .header_content {
+        padding: 0 2rem;
+    }
+
+    .menu {
+        margin-left: 0;
+    }
+
+    nav.menu ul {
+        justify-content: flex-start;
+    }
+
+    nav.menu ul li a {
+        margin-left: 10px;
+        font-size: 0.8rem;
+    }
+
+    .hireMeBTn a {
+        margin-left: 0;
+    }
+
+    .hero_content {
+        padding: 6rem 0 6rem 2rem;
+    }
+
+    .hero_info h1 {
+        font-size: 2rem;
+    }
+
+    .hero_info p {
+        line-height: 1.5;
+        margin-bottom: 35px;
+    }
+
+    .hero_buttons button {
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width:991px) {
+    nav{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .menu-bar,.mobile-res-btn{
+        display: block;
+        width: 100%;
+    }
+    nav.menu ul {
+        display: none;
+    }
+}

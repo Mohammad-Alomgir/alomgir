@@ -1,0 +1,8 @@
+:root{
+  --primary-bg-color: 
+  --secondary-bg-color:
+  --text-color
+  --p-color:
+  --heading-size:
+  --button-color:
+}
