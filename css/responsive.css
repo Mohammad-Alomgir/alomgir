@@ -109,11 +109,18 @@
     /* about section end */
 
 @media (max-width:768px) {
+    header{
+        position: relative;
+    }
+    .header_content{
+        grid-template-columns: 30% 70%;
+    }
     nav{
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         align-items: center;
-        text-align: right;;
+        text-align: right;
+
     }
     .menu-bar,.mobile-res-btn{
         display: inline-block;
@@ -121,21 +128,34 @@
         z-index: 999;
     }
     nav.menu ul {
+        align-items: center;
+        justify-content: center;
         display: none;
-        text-align: right;
-        position: relative;
-    }
-    nav.menu ul.active{
-        display: block;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
         position: absolute;
         left: 0;
         top: 0;
-        width: 100%;
-        height: 100vh;
         background-color: #fff;
+        align-content: center;
+    }
+    nav.menu ul li{
+        padding: 15px 25px;
+    }
+    nav.menu.active ul{
+        display: block;
         flex-direction: column;
         text-align: center;
-        justify-content: space-around;
+    }
+    nav.menu.active #menu-close-icon{
+        display: inline-block;
+    }
+    nav.menu.active #menu-icon{
+        display: none;
+    }
+    .hireMeBTn{
+        display: none;
     }
     /* nav.menu ul.active li{
         transform: translateY(100%);

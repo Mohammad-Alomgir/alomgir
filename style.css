@@ -163,6 +163,9 @@ nav.menu ul li a:hover {
 .menu-bar,.mobile-res-btn{
     display: none;
 }
+#menu-close-icon{
+    display: none;
+}
 /* hiteme btn css */
 .hireMeBTn{
   text-align: right;
