@@ -1,8 +1,9 @@
 @media (max-width: 991px) {
-    .layout_container{
+    .layout_container {
         width: 96%;
         margin: 0 auto;
     }
+
     /* .header_content {
         padding: 0 5rem;
     } */
@@ -10,6 +11,7 @@
     .menu {
         margin-left: 0;
     }
+
     nav.menu ul li a {
         margin-left: 10px;
         font-size: 0.8rem;
@@ -17,9 +19,6 @@
 
     .hireMeBTn a {
         margin-left: 0;
-    }
-
-     .hero_content {
     }
 
     .hero_info h1 {
@@ -31,102 +30,118 @@
         line-height: 1.5;
         margin-bottom: 35px;
     }
-  .hero_buttons button{
-    padding: 5px 10px !important;
-  }
+
     .hero_buttons button {
         padding: 10px 20px;
     }
+
     /* about section start */
-    .about_section_content{
-     flex-direction: column;
-     position: relative;
+    .about_section_content {
+        flex-direction: column;
+        position: relative;
     }
-    .about_info{
+
+    .about_info {
         width: 100%;
         margin: 0;
     }
-    .about_info h1{
+
+    .about_info h1 {
         font-size: 2rem;
     }
 
-   .about_img{
-    width: 100%;
-    border: none;
-    padding: 0 0 10px 0;
-    margin: 0;
-   }
-   .vertical-bar{
-    display: none;
-   }
-   .about_img .img::after{
-    width: 100%;
-    left: 0;
-    top: 0;
-    border-radius: 0;
-    display: none;
-   }
-   .about_img .img{
-   background-color: red;
-   background: var(--primary-color);
-   border-radius: 10px;
-   box-shadow: 0 0 10px 2px rgba(21, 21, 238, 0.5);
+    .about_img {
+        width: 100%;
+        border: none;
+        padding: 0 0 10px 0;
+        margin: 0;
+    }
 
-   }
-   .about_img .img img{
-    width: 100%;
-    height: 100%;
-   }
-   .about_social_icons{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-   }
-   .services-area{
-    padding: 1rem 0.5rem;
-   }
-   .service_content{
-    flex-direction: column;
-   }
-   .services-area .services{
-    grid-template-columns: repeat(3,1fr);
-    gap: 15px;
-   }
-   .services-area .services .service{
-    width: 230px;
-    height: 230px;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    justify-items: center;
-    justify-self: center;
-   }
-   .service-image img{
-    transform: scale(1);
-   }
+    .vertical-bar {
+        display: none;
+    }
+
+    .about_img .img::after {
+        width: 100%;
+        left: 0;
+        top: 0;
+        border-radius: 0;
+        display: none;
+    }
+
+    .about_img .img {
+        background-color: red;
+        background: var(--primary-color);
+        border-radius: 10px;
+        box-shadow: 0 0 10px 2px rgba(21, 21, 238, 0.5);
+
+    }
+
+    .about_img .img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about_social_icons {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .services-area {
+        padding: 1rem 0.5rem;
+    }
+
+    .service_content {
+        flex-direction: column;
+    }
+
+    .services-area .services {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+
+    .services-area .services .service {
+        width: 230px;
+        height: 230px;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+    }
+
+    .service-image img {
+        transform: scale(1);
+    }
 }
 
-    /* about section end */
+/* about section end */
 
 @media (max-width:768px) {
-    header{
+    header {
         position: relative;
     }
-    .header_content{
+
+    .header_content {
         grid-template-columns: 30% 70%;
     }
-    nav{
+
+    nav {
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: right;
 
     }
-    .menu-bar,.mobile-res-btn{
+
+    .menu-bar,
+    .mobile-res-btn {
         display: inline-block;
         width: 100%;
         z-index: 999;
     }
+
     nav.menu ul {
         align-items: center;
         justify-content: center;
@@ -140,23 +155,29 @@
         background-color: #fff;
         align-content: center;
     }
-    nav.menu ul li{
+
+    nav.menu ul li {
         padding: 15px 25px;
     }
-    nav.menu.active ul{
+
+    nav.menu.active ul {
         display: block;
         flex-direction: column;
         text-align: center;
     }
-    nav.menu.active #menu-close-icon{
+
+    nav.menu.active #menu-close-icon {
         display: inline-block;
     }
-    nav.menu.active #menu-icon{
+
+    nav.menu.active #menu-icon {
         display: none;
     }
-    .hireMeBTn{
+
+    .hireMeBTn {
         display: none;
     }
+
     /* nav.menu ul.active li{
         transform: translateY(100%);
         display: block;
@@ -167,5 +188,74 @@
     } */
 }
 
-@media (max-width: 768px ){
+@media (max-width: 412px) {
+
+    /* NAVBAR SECTION START */
+    .layout_container {
+        width: 100%;
+    }
+
+    .header_content {
+        grid-template-columns: 50% 50%;
+    }
+
+    .header_content .logo h2 {
+        font-size: 1rem;
+    }
+
+    /* NAVBAR SECTION END */
+    /* HERO SECTION START */
+    .hero_content {
+        flex-direction: column;
+    }
+
+    /* HERO SECTION END */
+    /* ABOUT SECTION START */
+    #about {
+        padding: 1rem 1rem 5rem 1rem;
+        min-height: auto !important;
+    }
+
+    .about_section_content {
+        padding: 0;
+        border: none;
+    }
+
+    .about_info p {
+        font-size: 14px;
+    }
+
+    .about_img {
+        border-top-left-radius: 20%;
+    }
+    .about_social_icons{
+        bottom: -50px;
+        border: none;
+       }
+    .about_social_icons ul li a span{
+        box-shadow: 0 0 10px 0.2px #6703a1;
+        margin-right: 15px;
+    }
+    /* ABOUT SECTION END */
+    /* SERVICE SECTION START */
+    #service{
+        padding: 3rem;
+    }
+    .service-image{
+        width: 100%;
+    }
+    .services-area .services{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .service_content{
+        gap: 1rem;
+        /* padding: 3rem 0; */
+    }
+    .services-area{
+        width: 100%;
+        padding: 0;
+        border: none;
+    }
+
+    /* SERVICE SECTION END */
 }

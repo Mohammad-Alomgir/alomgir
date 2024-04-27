@@ -20,11 +20,8 @@ function toggleMenu() {
 menubar.addEventListener("click", toggleMenu);
 closebar.addEventListener('click',toggleMenu);
 // toggl class when scroll
-const hello = window.pageYOffset;
-console.log(hello);
-const initialInnerHeight = window.innerHeight;
 window.onscroll = () => {
-  if(initialInnerHeight > window.innerHeight){
-    navbar.classList.toggle('active')
+  if(window.innerHeight > window.innerHeight - 1){
+    navbar.classList.remove('active');
   }
 }
